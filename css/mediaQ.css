@@ -1,0 +1,285 @@
+@media (max-width:922px) {
+    header {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .nav-bg {
+        width: 100%;
+        height: 19rem;
+    }
+
+    .owl-two .owl-nav .owl-prev:before {
+        display: none;
+    }
+
+    .owl-two .owl-nav .owl-next:before {
+        display: none;
+    }
+    nav ul{
+        left: 7.5rem;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .bg-nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #FFF !important;
+        z-index: 99999;
+
+    }
+
+    #slider-1 .owl-nav .owl-prev:before {
+        display: none;
+    }
+
+    #slider-1 .owl-nav .owl-next:before {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        background-color: #fff;
+        width: 80%;
+        position: absolute;
+        top: 10rem;
+        left: 5rem;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: center;
+        padding-bottom: 2rem;
+
+
+    }
+
+    nav ul li {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 7rem;
+        border-bottom: 1px solid #eee;
+        transition: all 0.5s;
+
+
+
+    }
+
+    nav ul li:hover {
+        background: #f7f7f7 !important;
+
+    }
+
+    nav ul li a {
+        margin: 0 !important;
+        color: #191a20;
+        margin-top: 0 !important;
+        position: relative;
+        bottom: 1.5rem;
+        font-weight: 500;
+
+    }
+
+    nav ul li a:hover {}
+
+    nav li:first-child {
+        border-top: 1px solid #eee;
+
+    }
+
+    .mobile-nav {
+        display: block;
+        color: #000;
+    }
+
+    .nav-menu .logo a {
+        color: #000;
+    }
+
+    .nav-bg {
+        height: 10rem;
+        bottom: 5rem;
+        background-color: #ffff;
+        position: fixed;
+        top: 0;
+        z-index: 90000;
+
+    }
+
+    .coursel-section-start {
+        margin-top: 5rem;
+    }
+
+    .banner-text {
+        width: 80%;
+        margin: 10rem auto;
+    }
+
+    .join-btn {
+        margin-top: 3rem;
+    }
+
+    .upcoming-row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .upcoming-cols,
+    #upcoming-cols-2,
+    #upcoming-cols-3 {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    /* .apply-conten-row{
+        flex-wrap: wrap;
+    } */
+    .apply-left,
+    .apply-right {
+        width: 90%;
+        margin: 5rem auto;
+    }
+
+    .about-cols-left,
+    .about-cols-right {
+        width: 90%;
+        margin: 5rem auto;
+    }
+
+    .first-section-contact {
+        width: 90%;
+        margin: 5rem auto;
+    }
+
+    .first-section-contact form input,
+    .first-section-contact form textarea {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .second-section-contact {
+        width: 90%;
+        margin: 5rem auto;
+    }
+
+}
+
+@media (max-width:500px) {
+    .nav-menu .logo a {
+        font-size: 2.5rem;
+    }
+
+    .mobile-nav {
+        font-size: 2.6rem;
+    }
+
+    .close {
+        font-size: 2.8rem;
+    }
+
+    .apply-right-content h2 {
+        font-size: 2rem;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .apply-right-content {
+        padding: 1.5rem;
+    }
+
+    .apply-right-content span i {
+        margin-left: 15rem;
+        position: relative;
+        bottom: 2.9rem;
+        left: 1rem;
+    }
+
+    .apply-right-content p {
+        padding: 1.5rem 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .apply-right-content-other h2 {
+        font-size: 1.5rem;
+    }
+
+    #click1 {
+        margin-left: 25.5rem;
+    }
+
+    #click2 {
+        margin-left: 25.8rem;
+    }
+
+    #click3 {
+        margin-left: 25.8rem;
+    }
+
+    .about-heading h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width:400px) {
+    .banner-text {
+        margin-top: 10rem;
+    }
+
+    .banner-text h1 {
+        font-size: 2.5rem;
+
+    }
+
+    #click1 {
+        margin-left: 0;
+    }
+
+    #click2 {
+        margin-left: 0;
+    }
+
+    #click3 {
+        margin-left: 0;
+    }
+
+    .about-heading h1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .about-cols-row-left,
+    .about-cols-row-right {
+
+        width: 90%;
+        height: 40rem;
+        margin: 3rem auto;
+    }
+
+    .first-section-contact #send-msg,
+    .btn-main {
+        position: relative;
+        right: 3rem;
+        width: 109%;
+        font-size: 1rem;
+        padding: 0rem;
+        padding-top: 0rem;
+        padding-top: 1rem;
+
+    }
+
+    .item-2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-box1 h2 {
+        font-size: 1.4rem;
+    }
+}
