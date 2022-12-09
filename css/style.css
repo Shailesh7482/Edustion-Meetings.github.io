@@ -29,6 +29,7 @@ html {
     height: 100%;
     margin: 0 auto;
 }
+
 .sticky {
     position: fixed;
     top: 0;
@@ -36,11 +37,11 @@ html {
     width: 100%;
     background-color: #FFF !important;
     z-index: 99999;
-  
+
 
 }
 
-.color{
+.color {
     color: #000 !important;
 }
 
@@ -147,20 +148,23 @@ nav ul li a {
     font-weight: 600;
     transition: all 0.5s;
 }
-.black{
+
+.black {
     color: #000 !important;
 }
 
 nav ul li a:hover {
     color: #f5a425;
 }
-.mobile-nav{
+
+.mobile-nav {
     font-size: 3.5rem;
     line-height: 10rem;
     color: #ffff;
     display: none;
 }
-.close{
+
+.close {
     font-size: 4rem;
     color: #000;
     line-height: 10rem;
@@ -249,18 +253,20 @@ banner-End -Here
     height: 100%;
     margin-top: 15rem;
 }
-.section-two-first-crousel{
+
+.section-two-first-crousel {
     margin: 0 auto;
     width: 100%;
     height: 100%;
 }
-#slider-1{
+
+#slider-1 {
     justify-content: center;
     align-items: center;
 }
 
 .item {
-     width: 80%;     
+    width: 80%;
     height: 100%;
     background-image: url("../img/service-item-bg.jpg");
     border-radius: 2rem;
@@ -318,9 +324,10 @@ banner-End -Here
     opacity: 1;
     z-index: 1;
     display: block;
-    
+
 }
-#slider-1 .owl-nav .owl-prev{
+
+#slider-1 .owl-nav .owl-prev {
     position: absolute;
     top: calc(50% - 25px);
     left: 0;
@@ -377,20 +384,22 @@ banner-End -Here
     position: relative;
     bottom: 8px;
     left: 5px;
-        
+
 
 }
 
 #slider-1 .owl-theme .owl-nav [class*='owl-']:hover {
     background: none;
 }
+
 #slider-1 .owl-nav button:hover {
     background: none;
     color: #FFF;
     text-decoration: none;
 }
-#slider-1 .owl-nav button span{
-    display: none; 
+
+#slider-1 .owl-nav button span {
+    display: none;
 }
 
 
@@ -400,7 +409,7 @@ banner-End -Here
 section-three start------------------------------------------- */
 
 .section-three {
- 
+
     padding-bottom: 7%;
 }
 
@@ -761,7 +770,7 @@ section-header-four- start
 }
 
 .apply-right-content-other {
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 1rem;
 }
 
 .apply-right-content-other h2 {
@@ -778,20 +787,13 @@ section-header-four- start
     border-bottom: 1px solid rgb(81, 78, 78);
 }
 
-#click1 {
-    margin-left: 12.5rem;
-    font-size: 2.5rem;
-}
-
-#click2 {
-    margin-left: 16.8rem;
-    font-size: 2.5rem;
-}
-
+#click1,
+#click2,
 #click3 {
-    margin-left: 10.8rem;
     font-size: 2.5rem;
 }
+
+
 
 .apply-right-content-other p span {
     color: #3CF;
@@ -1205,18 +1207,21 @@ footer {
     border-top: 1px solid rgba(250, 250, 250, 0.15);
     padding: 50px 0px;
 }
-footer p{
+
+footer p {
     font-size: 1.4rem;
     color: #Fff;
     text-transform: uppercase;
 }
-footer p span{
+
+footer p span {
     color: #f5a425;
 }
 
 #slider-1 .crousel-icon {
     justify-content: center;
 }
+
 /* ---------------------------------------------------------------
 header-section-contact - end
 
